@@ -158,6 +158,20 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    // Adding overlay to img
+    .header-content::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: .6;
+        z-index: 0;
+    }
+    // This is end of added code
     .header-content {
         position: relative;
         text-align: center;
@@ -181,6 +195,12 @@ header {
             }
         }
     }
+    //including z-index for all header content class
+    .header-content > * {
+        z-index: 10;
+        position: relative;
+    }
+    // end of edit
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
