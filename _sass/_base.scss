@@ -199,7 +199,7 @@ header {
     }
     
     //including z-index for all header content class
-    .header-content > * {
+    header > * {
        z-index: 10;
       position: relative;
     }
