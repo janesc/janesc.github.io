@@ -70,8 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    // test background to transparent
-    background-color: transparent;
+    background-color: white;
     border-color: rgba($theme-dark, .3);
     @include sans-serif-font;
     @include transition-all;
@@ -150,16 +149,7 @@ aside {
 
 // Homepage Header
 
-header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/header.jpg');
-    text-align: center;
-    color: white;
-    // Adding overlay to img
+// Adding overlay to img
     .banner::after {
         content: "";
         display: block;
@@ -173,6 +163,17 @@ header {
         z-index: 0;
     }
     // This is end of added code
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/header.jpg');
+    text-align: center;
+    color: white;
+    
     .header-content {
         position: relative;
         text-align: center;
