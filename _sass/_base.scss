@@ -150,7 +150,7 @@ aside {
 // Homepage Header
 
 // Adding overlay to img
-header::after {
+.banner::after {
     content: "";
     display: block;
     width: 100%;
@@ -164,7 +164,7 @@ header::after {
 }
     // This is end of added code
 
-header {
+.banner {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -199,7 +199,7 @@ header {
     }
     
     //including z-index for all header content class
-    header > * {
+    .banner > * {
        z-index: 10;
       position: relative;
     }
