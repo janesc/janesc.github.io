@@ -71,7 +71,7 @@ aside {
 
 .navbar-default {
     // test background to transparent
-    background-color: white;
+    background-color: transparent;
     border-color: rgba($theme-dark, .3);
     @include sans-serif-font;
     @include transition-all;
