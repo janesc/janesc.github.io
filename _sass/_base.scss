@@ -197,12 +197,14 @@ header {
             }
         }
     }
+    
     //including z-index for all header content class
-    //.header-content > * {
-      //  z-index: 10;
-        //position: relative;
-   // }
+    .header-content > * {
+       z-index: 10;
+      position: relative;
+    }
     // end of edit
+    
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
