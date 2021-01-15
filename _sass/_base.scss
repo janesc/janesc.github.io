@@ -159,7 +159,7 @@ header {
     text-align: center;
     color: white;
     // Adding overlay to img
-    .header-content::after {
+    .banner::after {
         content: "";
         display: block;
         width: 100%;
