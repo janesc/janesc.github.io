@@ -150,7 +150,7 @@ aside {
 // Homepage Header
 
 // Adding overlay to img
-header::after {
+.banner::after {
     content: "";
     display: block;
     width: 100%;
