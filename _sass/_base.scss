@@ -175,7 +175,7 @@ header {
     color: white;
    
     //including z-index for all header content class
-    .header-content > * {
+    .header-content-inner > * {
        z-index: 10;
       position: relative;
     }
