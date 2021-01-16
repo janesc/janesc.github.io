@@ -164,6 +164,13 @@ aside {
 }
     // This is end of added code
 
+    //including z-index for all header content class
+    .banner > * {
+       z-index: 10;
+      position: relative;
+    }
+    // end of edit
+
 header {
     position: relative;
     width: 100%;
@@ -173,13 +180,6 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
-   
-    //including z-index for all header content class
-    .header-content-inner > * {
-       z-index: 10;
-      position: relative;
-    }
-    // end of edit
     
     .header-content {
         position: relative;
