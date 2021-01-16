@@ -150,7 +150,7 @@ aside {
 // Homepage Header
 
 // Adding overlay to img
-.banner::after {
+header::after {
     content: "";
     display: block;
     width: 100%;
@@ -164,7 +164,7 @@ aside {
 }
     // This is end of added code
 
-.banner {
+header {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -173,6 +173,13 @@ aside {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+   
+    //including z-index for all header content class
+    .header-content > * {
+       z-index: 10;
+      position: relative;
+    }
+    // end of edit
     
     .header-content {
         position: relative;
@@ -197,13 +204,6 @@ aside {
             }
         }
     }
-    
-    //including z-index for all header content class
-    .banner > * {
-       z-index: 10;
-      position: relative;
-    }
-    // end of edit
     
     @media (min-width: 768px) {
         min-height: 100%;
