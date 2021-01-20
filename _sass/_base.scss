@@ -93,8 +93,9 @@ aside {
                 font-weight: 700;
                 font-size: 13px;
                 color: $theme-dark;
+                //changed hover color: $theme-primary; to 
                 &:hover {
-                    color: $theme-primary;
+                    color: #B0DDC2;
                 }
             }
             &.active {
