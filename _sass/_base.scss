@@ -79,9 +79,10 @@ aside {
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
+        //lighten instead of darken color
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: lighten($theme-primary, 30%);
         }
     }
     .nav {
