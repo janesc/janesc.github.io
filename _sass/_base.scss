@@ -22,8 +22,9 @@ a {
     @include transition-all;
     color: $theme-primary;
     &:hover,
+    //original: color: darken($theme-primary, 10%);
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: lighten(#B0DDC2, 10%);
     }
 }
 
@@ -79,7 +80,7 @@ aside {
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
-        //changed this: lighten($theme-primary, 60%) 
+        //Original: color: lighten($theme-primary, 60%); 
         &:hover,
         &:focus {
             color: #B0DDC2;
@@ -93,7 +94,7 @@ aside {
                 font-weight: 700;
                 font-size: 13px;
                 color: $theme-dark;
-                //changed hover color: $theme-primary; to 
+                //Original: color: $theme-primary;  
                 &:hover {
                     color: #B0DDC2;
                 }
