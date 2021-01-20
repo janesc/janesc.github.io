@@ -82,7 +82,7 @@ aside {
         //lighten instead of darken color
         &:hover,
         &:focus {
-            color: lighten($theme-primary, 30%);
+            color: lighten($theme-primary, 60%);
         }
     }
     .nav {
